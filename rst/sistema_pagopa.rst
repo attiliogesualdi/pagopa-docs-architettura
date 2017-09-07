@@ -1,72 +1,39 @@
 Il sistema PagoPA® e il Nodo dei Pagamenti-SPC
 =======================================================
 
-L’interconnessione tra le pubbliche amministrazioni e le piattaforme di
-incasso e pagamento dei prestatori dei servizi di pagamento avviene, ai
-sensi della normativa vigente, attraverso lo scambio dei flussi previsti
-dalle presenti specifiche per il tramite del Nodo dei Pagamenti.
+L’interconnessione tra le pubbliche amministrazioni e le piattaforme di incasso e pagamento dei prestatori dei servizi di pagamento avviene, ai sensi della normativa vigente, attraverso lo scambio dei flussi previsti dalle presenti specifiche per il tramite del Nodo dei Pagamenti.
 
 .. figure:: media/image20.png
    :width: 100%
 
 \ **Figura 21 – Schema architetturale del sistema pagoPA®**
 
-Nella Figura 21 a pagina 58 sono evidenziate le componenti ed i soggetti
-che interagiscono tra di loro per consentire lo svolgersi del processo
-di pagamento telematico secondo i modelli descritti in precedenza.
+Nella Figura 21 a pagina 58 sono evidenziate le componenti ed i soggetti che interagiscono tra di loro per consentire lo svolgersi del processo di pagamento telematico secondo i modelli descritti in precedenza.
 
-Nel presente capitolo saranno brevemente introdotte le caratteristiche
-relative alla connettività tra le parti ed i correlati servizi erogati
-dal NodoSPC nei confronti dei soggetti aderenti.
+Nel presente capitolo saranno brevemente introdotte le caratteristiche relative alla connettività tra le parti ed i correlati servizi erogati dal NodoSPC nei confronti dei soggetti aderenti.
 
 Connessione al sistema pagoPA®
 ------------------------------
 
-In Figura 21 è rappresentato lo schema architetturale del sistema
-pagoPA®, dove il Nodo dei Pagamenti-SPC costituisce l’Hub (piattaforma)
-attraverso la quale Enti Creditori e prestatori di servizi di pagamento
-colloquiano per consentire agli utilizzatori finali di effettuare i
-pagamenti all'interno del sistema.
+In Figura 21 è rappresentato lo schema architetturale del sistema pagoPA®, dove il Nodo dei Pagamenti-SPC costituisce l’Hub (piattaforma) attraverso la quale Enti Creditori e prestatori di servizi di pagamento colloquiano per consentire agli utilizzatori finali di effettuare i pagamenti all'interno del sistema.
 
-Le tipologie ammesse di connessione al sistema pagoPA, unitamente alle
-specifiche di qualità e sicurezza richieste, sono requisiti di sistema
-che devono essere necessariamente conformi al Piano triennale per
-l’informatica nella Pubblica amministrazione 2017 – 2019 approvato dal
-Presidente del Consiglio dei Ministri il 31 maggio 2017, il quale
-prevede, tra l’altro, a carico di AgID la definizione di un “Modello di
-interoperabilità”.
+Le tipologie ammesse di connessione al sistema pagoPA, unitamente alle specifiche di qualità e sicurezza richieste, sono requisiti di sistema che devono essere necessariamente conformi al Piano triennale per l’informatica nella Pubblica amministrazione 2017 – 2019 approvato dal Presidente del Consiglio dei Ministri il 31 maggio 2017, il quale
+prevede, tra l’altro, a carico di AgID la definizione di un “Modello di interoperabilità”.
 
-Le modalità di attuazione di tale Modello di Interoperabilità
-nell’ambito del sistema pagoPA sono specificate in dettaglio in un
-documento separato, ancorché collegato alle SANP “Specifiche di
-Connessione al sistema pagoPA”, che verrà reso disponibile a aggiornato
-mediante la pubblicazione sul sito istituzionale dell’Agenzia per
-l’Italia Digitale.
+Le modalità di attuazione di tale Modello di Interoperabilità nell’ambito del sistema pagoPA sono specificate in dettaglio in un documento separato, ancorché collegato alle SANP “Specifiche di Connessione al sistema pagoPA”, che verrà reso disponibile a aggiornato mediante la pubblicazione sul sito istituzionale dell’Agenzia per l’Italia Digitale.
 
-Nelle more di tale pubblicazione resta vigente quanto indicato nella
-precedente versione delle SANP. Un ulteriore riferimento può essere
-assunto dalle “Linee guida per transitare al nuovo Modello di
-interoperabilità”, anche esso pubblicato sul sito istituzionale
-dell’Agenzia.
+Nelle more di tale pubblicazione resta vigente quanto indicato nella precedente versione delle SANP. Un ulteriore riferimento può essere assunto dalle “Linee guida per transitare al nuovo Modello di interoperabilità”, anche esso pubblicato sul sito istituzionale dell’Agenzia.
 
 Strutture dati di supporto
 --------------------------
 
-Il Dominio è gestito nel Nodo dei Pagamenti-SPC mediante strutture dati
-finalizzate all’indirizzamento ed alla gestione di dati a carattere
-informativo.
+Il Dominio è gestito nel Nodo dei Pagamenti-SPC mediante strutture dati finalizzate all’indirizzamento ed alla gestione di dati a carattere informativo.
 
-Ai fini dell’indirizzamento, il Nodo dei Pagamenti-SPC censisce gli Enti
-Creditori, i prestatori di servizi di pagamento, i loro intermediari
-tecnologici ed i sistemi di comunicazione tramite i quali si
-interfacciano al Nodo stesso.
+Ai fini dell’indirizzamento, il Nodo dei Pagamenti-SPC censisce gli Enti Creditori, i prestatori di servizi di pagamento, i loro intermediari tecnologici ed i sistemi di comunicazione tramite i quali si interfacciano al Nodo stesso.
 
-Tali informazioni, funzionali alle logiche di instradamento, sono
-registrate in una tabella di configurazione a cura dei gestori del Nodo
-dei Pagamenti-SPC.
+Tali informazioni, funzionali alle logiche di instradamento, sono registrate in una tabella di configurazione a cura dei gestori del Nodo dei Pagamenti-SPC.
 
-Ai fini della gestione di dati a carattere informativo, vengono
-utilizzati le tabelle seguenti:
+Ai fini della gestione di dati a carattere informativo, vengono utilizzati le tabelle seguenti:
 
 -  Tabella delle controparti (aderenti lato Ente Creditore)
 
@@ -79,11 +46,7 @@ utilizzati le tabelle seguenti:
 Tabella delle controparti
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-La “Tabella delle controparti” è il documento informatico, inviato dal
-Nodo dei Pagamenti-SPC ad ogni prestatore di servizi di pagamento, che
-contiene l’elenco degli Enti Creditori aderenti al Nodo dei
-Pagamenti-SPC e le informazioni sull'erogazione dei servizi dell’Ente
-Creditore stesso, compresa l'indicazione relativa alla disponibilità del
+La “Tabella delle controparti” è il documento informatico, inviato dal Nodo dei Pagamenti-SPC ad ogni prestatore di servizi di pagamento, che contiene l’elenco degli Enti Creditori aderenti al Nodo dei Pagamenti-SPC e le informazioni sull'erogazione dei servizi dell’Ente Creditore stesso, compresa l'indicazione relativa alla disponibilità del
 pagamento attivato presso il PSP (cosiddetto "Modello 3").
 
 La “Tabella delle controparti” contiene inoltre l'elenco dei codici IBAN di accredito che gli Enti Creditori sono tenuti a comunicare al Nodo dei Pagamenti-SPC (vedi successivo § 4.2.3).
@@ -93,42 +56,26 @@ La “Tabella delle controparti” viene aggiornata e pubblicata con cadenza gio
 Catalogo Dati Informativi
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ai fini della trasparenza delle operazioni, il Nodo dei Pagamenti-SPC
-censisce per i PSP i dati sulle condizioni di pagamento (costi massimi
-del servizio, pagine web con descrizione dei servizi, ecc.) in un
-catalogo alimentato dai PSP stessi mediante il tramite tecnico del
-Canale.
+Ai fini della trasparenza delle operazioni, il Nodo dei Pagamenti-SPC censisce per i PSP i dati sulle condizioni di pagamento (costi massimi del servizio, pagine web con descrizione dei servizi, ecc.) in un catalogo alimentato dai PSP stessi mediante il tramite tecnico del Canale.
 
-Funzionalità di interrogazione del catalogo sono esposte dal Nodo dei
-Pagamenti-SPC verso gli Enti Creditori, che le possono utilizzare per le
-opportune comunicazioni agli utilizzatori finali.
+Funzionalità di interrogazione del catalogo sono esposte dal Nodo dei Pagamenti-SPC verso gli Enti Creditori, che le possono utilizzare per le opportune comunicazioni agli utilizzatori finali.
 
-Il Catalogo dei Dati Informativi viene aggiornato e pubblicato con
-cadenza giornaliera.
+Il Catalogo dei Dati Informativi viene aggiornato e pubblicato con cadenza giornaliera.
 
 Tabella dei c/c di accredito
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Al fine di garantire la sicurezza delle transazioni processate, il Nodo
-dei Pagamenti-SPC verifica che i codici IBAN presenti nelle Richieste di
-pagamento telematico (RPT) siano congruenti con quelli memorizzati in un
-apposito archivio sulla base delle informazioni fornite dagli Enti
-Creditori.
+Al fine di garantire la sicurezza delle transazioni processate, il Nodo dei Pagamenti-SPC verifica che i codici IBAN presenti nelle Richieste di pagamento telematico (RPT) siano congruenti con quelli memorizzati in un apposito archivio sulla base delle informazioni fornite dagli Enti Creditori.
 
-A tale scopo questi ultimi sono tenuti ad inviare al Nodo dei
-Pagamenti-SPC l'elenco dei codici IBAN sui quali effettuare l'accredito
-delle somme dovute.
+A tale scopo questi ultimi sono tenuti ad inviare al Nodo dei Pagamenti-SPC l'elenco dei codici IBAN sui quali effettuare l'accredito delle somme dovute.
 
 Catalogo dei servizi
 ~~~~~~~~~~~~~~~~~~~~
 
-Il Catalogo dei Servizi è il *repository* che contiene l’elenco dei
-servizi generalizzati, attivati dagli Enti Creditori, relativo al
-processo di pagamento attivato presso i PSP in modalità spontanea (vedi
+Il Catalogo dei Servizi è il *repository* che contiene l’elenco dei servizi generalizzati, attivati dagli Enti Creditori, relativo al processo di pagamento attivato presso i PSP in modalità spontanea (vedi
 § 2.2.3).
 
-Il Catalogo dei Servizi viene aggiornato e pubblicato con cadenza
-giornaliera.
+Il Catalogo dei Servizi viene aggiornato e pubblicato con cadenza giornaliera.
 
 Controlli
 ---------
@@ -226,91 +173,49 @@ Il periodo temporale durante il quale saranno disponibili le informazioni relati
 Chiusura operazioni pendenti
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Con riferimento al modello di pagamento ad esecuzione differita (cfr. §
-2.1.2), ma applicabile a tutti i processi di pagamento previsti, è
-possibile che una Richiesta di pagamento Telematica (RPT) non abbia
-ricevuto la corrispondente Ricevuta Telematica nel periodo durante il
-quale il Nodo dei Pagamenti-SPC rende disponibili le RPT in attesa del
-relativo esito (si veda il paragrafo 12.3.1 "Periodo di ritenzione delle
-RPT senza esito" della Sezione IV).
+Con riferimento al modello di pagamento ad esecuzione differita (cfr. § 2.1.2), ma applicabile a tutti i processi di pagamento previsti, è possibile che una Richiesta di pagamento Telematica (RPT) non abbia ricevuto la corrispondente Ricevuta Telematica nel periodo durante il quale il Nodo dei Pagamenti-SPC rende disponibili le RPT in attesa del
+relativo esito (si veda il paragrafo 12.3.1 "Periodo di ritenzione delle RPT senza esito" della Sezione IV).
 
-Al termine di detto periodo il Nodo dei Pagamenti-SPC genera in via
-automatica una RT avente esito del pagamento non determinato e la invia
-all’Ente Creditore che ha generato la RPT, nello stesso tempo
-interagisce con il PSP interessato per richiedere la cancellazione della
-RPT dall’archivio per decorrenza dei termini (vedi anche §§ 9.1.7 e
-9.2.9 nella Sezione III).
+Al termine di detto periodo il Nodo dei Pagamenti-SPC genera in via automatica una RT avente esito del pagamento non determinato e la invia all’Ente Creditore che ha generato la RPT, nello stesso tempo interagisce con il PSP interessato per richiedere la cancellazione della RPT dall’archivio per decorrenza dei termini (vedi anche §§ 9.1.7 e 9.2.9 nella Sezione III).
 
 Modalità Unica d'Interazione - MUI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In relazione ai diversi modelli di processo sopra descritti, il Servizio
-MUI del Nodo dei Pagamenti-SPC svolge la funzione di normalizzazione del
-colloquio tra Ente Creditore aderente e PSP, svincolando i criteri
-specifici d'interazione rispetto ad ogni PSP e rendendo questa
-differenze trasparenti all’Ente Creditore.
+In relazione ai diversi modelli di processo sopra descritti, il Servizio MUI del Nodo dei Pagamenti-SPC svolge la funzione di normalizzazione del colloquio tra Ente Creditore aderente e PSP, svincolando i criteri specifici d'interazione rispetto ad ogni PSP e rendendo questa differenze trasparenti all’Ente Creditore.
 
-In particolare, MUI normalizza i flussi operativi per realizzare il
-processo di pagamento attuato presso il Portale di Pagamento del PSP
-appositamente predisposto dal PSP stesso (cfr. anche §2.2).
+In particolare, MUI normalizza i flussi operativi per realizzare il processo di pagamento attuato presso il Portale di Pagamento del PSP appositamente predisposto dal PSP stesso (cfr. anche §2.2).
 
 Accentramento della scelta del PSP
 ------------------------------------
 
-Il Nodo dei Pagamenti-SPC mette a disposizione degli Enti Creditori
-apposite pagine esposte su internet che realizzano le funzionalità WISP
-raggiungendo lo scopo di consentire all'utilizzatore finale di scegliere
-il servizio di pagamento che più si addice alle proprie esigenze e
-consente di standardizzare a livello nazionale la *user experience* dei
+Il Nodo dei Pagamenti-SPC mette a disposizione degli Enti Creditori apposite pagine esposte su internet che realizzano le funzionalità WISP raggiungendo lo scopo di consentire all'utilizzatore finale di scegliere il servizio di pagamento che più si addice alle proprie esigenze e consente di standardizzare a livello nazionale la *user experience* dei
 pagamenti verso la Pubblica Amministrazione.
 
 Rendicontazione per l’Agenzia delle Entrate
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Nell’ambito della gestione dell’acquisto della marca da bollo digitale,
-una specifica funzione del Nodo dei Pagamenti-SPC provvederà
-periodicamente ad inviare all’Agenzia delle entrate, per conto di tutti
-gli Enti Creditori accreditati sul Nodo dei Pagamenti-SPC, il flusso di
-rendicontazione previsto al punto 5.4 del Provvedimento del Direttore
-dell’Agenzia delle Entrate del 19 settembre 2014.
+Nell’ambito della gestione dell’acquisto della marca da bollo digitale, una specifica funzione del Nodo dei Pagamenti-SPC provvederà periodicamente ad inviare all’Agenzia delle entrate, per conto di tutti gli Enti Creditori accreditati sul Nodo dei Pagamenti-SPC, il flusso di rendicontazione previsto al punto 5.4 del Provvedimento del Direttore dell’Agenzia delle Entrate del 19 settembre 2014.
 
 Sincronizzazione con la componente di gestione SFTP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Il Nodo dei Pagamenti-SPC mette a disposizione degli Enti Creditori e
-dei PSP la possibilità di completare la ricezione e l'invio di flussi
-massivi di informazioni, che oggi avviene attraverso modalità SOAP
-sincrona (ad esempio: flussi di rendicontazione, totali di traffico,
-ecc.), in modalità file transfer sicuro (SFTP).
+Il Nodo dei Pagamenti-SPC mette a disposizione degli Enti Creditori e dei PSP la possibilità di completare la ricezione e l'invio di flussi massivi di informazioni, che oggi avviene attraverso modalità SOAP sincrona (ad esempio: flussi di rendicontazione, totali di traffico, ecc.), in modalità file transfer sicuro (SFTP).
 
-***La funzione è al momento attiva solo per la ricezione dei flussi di
-rendicontazione (vedi §*** ***5.3.5) da parte degli Enti Creditori.***
+***La funzione è al momento attiva solo per la ricezione dei flussi di rendicontazione (vedi §*** ***5.3.5) da parte degli Enti Creditori.***
 
 Servizi applicativi opzionali
 -----------------------------
 
-Rientrano in questa tipologia tutte le funzioni che il Servizio mette a
-disposizione dei soggetti appartenenti al Dominio e che possono da
-questi essere utilizzate nell’ambito dello svolgimento delle proprie
-attività.
+Rientrano in questa tipologia tutte le funzioni che il Servizio mette a disposizione dei soggetti appartenenti al Dominio e che possono da questi essere utilizzate nell’ambito dello svolgimento delle proprie attività.
 
 Totali di traffico
 ~~~~~~~~~~~~~~~~~~
 
-Il Servizio di Quadratura dei flussi di traffico mette a disposizione
-dei soggetti appartenenti al Dominio che ne facciano richiesta, un
-flusso periodico relativo a tutte le interazioni (RPT ed RT) transitate
-attraverso il Nodo dei Pagamenti-SPC e di stretta pertinenza del singolo
-richiedente.
+Il Servizio di Quadratura dei flussi di traffico mette a disposizione dei soggetti appartenenti al Dominio che ne facciano richiesta, un flusso periodico relativo a tutte le interazioni (RPT ed RT) transitate attraverso il Nodo dei Pagamenti-SPC e di stretta pertinenza del singolo richiedente.
 
-Il Nodo dei Pagamenti-SPC mette a disposizione dell’Ente Creditore e del
-PSP gli strumenti per la ricezione di tali flussi (vedi §§ 8.2.5 e
-9.2.11).
+Il Nodo dei Pagamenti-SPC mette a disposizione dell’Ente Creditore e del PSP gli strumenti per la ricezione di tali flussi (vedi §§ 8.2.5 e 9.2.11).
 
-Il periodo temporale durante il quale saranno disponibili i flussi
-relativi ai “Totali di Traffico” non potrà superare i 10 giorni di
-calendario e sarà comunque pubblicato sul sito dell’Agenzia per l’Italia
-Digitale.
+Il periodo temporale durante il quale saranno disponibili i flussi relativi ai “Totali di Traffico” non potrà superare i 10 giorni di calendario e sarà comunque pubblicato sul sito dell’Agenzia per l’Italia Digitale.
 
 Servizi operativi
 -----------------
@@ -358,26 +263,11 @@ Il Servizio rende disponibile la consultazione, l’analisi e l’esportazione d
 Report “Commissioni a carico PA”
 ------------------------------------
 
-Premesso che le presenti linee guida hanno come presupposto le
-disposizioni primarie in materia di pagamenti, si evidenzia che i PSP
-abilitati sul Nodo dei Pagamenti-SPC operano in qualità di PSP del
-pagatore e, pertanto, potranno richiedere le loro commissioni
-esclusivamente all’utilizzatore finale, indipendentemente che
-quest’ultimo si configuri quale cliente abituale o occasionale.
+Premesso che le presenti linee guida hanno come presupposto le disposizioni primarie in materia di pagamenti, si evidenzia che i PSP abilitati sul Nodo dei Pagamenti-SPC operano in qualità di PSP del pagatore e, pertanto, potranno richiedere le loro commissioni esclusivamente all’utilizzatore finale, indipendentemente che quest’ultimo si configuri quale cliente abituale o occasionale.
 
-La pubblica amministrazione potrà essere chiamata al pagamento di
-commissioni relative alle operazioni di pagamento in suo favore eseguite
-attraverso il Nodo dei Pagamenti-SPC, se del caso, solo previo
-convenzionamento del/i PSP attraverso CONSIP e/o le centrali di
-committenza regionali.
+La pubblica amministrazione potrà essere chiamata al pagamento di commissioni relative alle operazioni di pagamento in suo favore eseguite attraverso il Nodo dei Pagamenti-SPC, se del caso, solo previo convenzionamento del/i PSP attraverso CONSIP e/o le centrali di committenza regionali.
 
-In tale evenienza, nell’ambito del servizio di *reporting*, il sistema -
-**quale terza parte fidata** - mette a disposizione di Enti Creditori e
-PSP, ciascuno per le informazioni di propria competenza, un documento
-contente l’elenco ed i relativi totali, per controparte, delle RPT
-scambiate nel mese di riferimento che contengono un valore non nullo nel
-dato commissioneCaricoPA presente nella struttura della RPT denominata
-datiSingoloVersamento (vedi § 5.3.1 della Sezione II).
+In tale evenienza, nell’ambito del servizio di *reporting*, il sistema - **quale terza parte fidata** - mette a disposizione di Enti Creditori e PSP, ciascuno per le informazioni di propria competenza, un documento contente l’elenco ed i relativi totali, per controparte, delle RPT scambiate nel mese di riferimento che contengono un valore non nullo nel dato commissioneCaricoPA presente nella struttura della RPT denominata datiSingoloVersamento (vedi § 5.3.1 della Sezione II).
 
 Per ogni coppia Ente Creditore / PSP sarà generata un elenco contenente il dettaglio delle RPT che hanno dato luogo ad una RT recepita dal Nodo dei Pagamenti-SPC (e non necessariamente inoltrata all’Ente Creditore).
 
@@ -399,29 +289,7 @@ In particolare, per ogni occorrenza della coppia formata da datiSingoloVersament
 
 i relativi totali saranno forniti sia per le RT aventi esito positivo, sia per quelle aventi esito negativo.
 
-FINE DOCUMENTO
-
-.. [1]
-   Come per il processo di pagamento con re indirizzamento on-line, nel
-   caso di non scelta dell'utente o di timeout sul WISP, il NodoSPC
-   genera una o più RT negative e chiude il workflow
-
-.. [2]
-   Qualora non fosse possibile utilizzare detto logotipo, inserire la
-   dicitura “Pagato via sistema PagoPA”
-
-.. [3]
-   Dato firmaRicevuta della struttura DatiVersamento della RPT (vedi §
-   5.3.1).
-
-.. [4]
-   vedi dati della RT al paragrafo 5.3.2 della Sezione II e dati del
-   Flusso di rendicontazione specificati nella Sezione II dell’Allegato
-   A alle Linee guida.
-
-.. [5]
-   vedi sotto fase 2a della Figura 19 a pagina 48
+.. rubric:: Note
 
 .. [6]
-   Ogni Richiesta di Pagamento Telematico (RPT) consente pagamenti
-   indirizzati ad un unico ente beneficiario.
+   Ogni Richiesta di Pagamento Telematico (RPT) consente pagamenti indirizzati ad un unico ente beneficiario.
