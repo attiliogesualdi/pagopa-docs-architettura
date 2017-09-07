@@ -6,7 +6,7 @@ incasso e pagamento dei prestatori dei servizi di pagamento avviene, ai
 sensi della normativa vigente, attraverso lo scambio dei flussi previsti
 dalle presenti specifiche per il tramite del Nodo dei Pagamenti.
 
-.. figure:: media/image19.png
+.. figure:: media/image20.png
    :width: 100%
 
 \ **Figura 21 – Schema architetturale del sistema pagoPA®**
@@ -18,9 +18,6 @@ di pagamento telematico secondo i modelli descritti in precedenza.
 Nel presente capitolo saranno brevemente introdotte le caratteristiche
 relative alla connettività tra le parti ed i correlati servizi erogati
 dal NodoSPC nei confronti dei soggetti aderenti.
-
-+----+
-+----+
 
 Connessione al sistema pagoPA®
 ------------------------------

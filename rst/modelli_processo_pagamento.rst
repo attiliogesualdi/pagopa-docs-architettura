@@ -35,7 +35,7 @@ Per ovviare a tale problema, fatti salvi i principi di trasparenza e imparzialit
 
 Tali algoritmi sono soggetti a modifiche e affinamenti nel tempo, e verranno messi in esercizio da AgID anche senza preavviso, nel caso che mutate condizioni di mercato lo richiedano in funzione del perseguimento dello stesso obiettivo precedentemente dichiarato.
 
-.. figure:: media/image1.png
+.. figure:: media/image2.png
    :width: 100%
 
 \ **Figura 3 - Processo di pagamento con re indirizzamento on-line**
@@ -74,7 +74,7 @@ c. nel caso di non scelta dell'utente o di timeout sul WISP, il NodoSPC genera u
 
 3. l'utilizzatore finale è re-diretto sul portale dell’EC e può effettuare il download della quietanza.
 
-.. figure:: media/image2.png
+.. figure:: media/image3.png
    :width: 100%
 
 \ **Figura 4 – *Sequence diagram* del processo di pagamento con re
@@ -102,7 +102,7 @@ Questo *workflow*, già denominato “Processo di pagamento con esecuzione diffe
 
 La componente WISP del NodoSPC innesca tale processo inoltrando la RPT, in modo del tutto trasparente per l’Ente Creditore. I sistemi informatici del PSP acquisiscono i dati del soggetto pagatore (o versante se esiste) e procedono all’autenticazione dell’identità dichiarata, autorizzando, se del caso, l’accesso ai sistemi di pagamento.
 
-.. figure:: media/image3.png
+.. figure:: media/image4.png
    :width: 100%
 
 \ **Figura 5 – Processo di pagamento con autorizzazione gestita dal PSP**
@@ -115,7 +115,7 @@ L’esecuzione del pagamento ed il rilascio della relativa attestazione (RT) avv
 
 In ogni caso il PSP deve restituire la RT in tempi certi e comunicati al proprio cliente prima del pagamento, in modo da consentire all’utilizzatore finale di usufruire dei servizi per cui ha pagato.
 
-.. figure:: media/image4.png
+.. figure:: media/image5.png
    :width: 100%
 
 \ **Figura 6 - *Sequence diagram* del processo di pagamento con autorizzazione gestita dal PSP**
@@ -154,7 +154,7 @@ I servizi offerti dai vari PSP aderenti al Nodo dei Pagamenti-SPC sono proposti 
 
 Nel rispetto di tale principio, WISP mette a disposizione del cittadino utente di pagoPA ulteriori funzioni di supporto che consentono di memorizzare le scelte di pagamento effettuate per poterle richiamare e riutilizzare nelle successive occasioni. Oppure di eleggere una delle scelte come predefinita così da avere un’esperienza quanto più possibile simile alla modalità one-click tipica dei siti di *ecommerce*.
 
-.. figure:: media/image5.png
+.. figure:: media/image6.png
    :width: 100%
 
 \ **Figura 7 – Check-out nel processo di pagamento attivato presso l’Ente Creditore**
@@ -185,7 +185,7 @@ Si noti, che, qualora l'utilizzatore finale non effettui alcuna scelta,
 oppure si verifichi un timeout di sessione, il NodoSPC genererà una o
 più RT negative, così come indicato nei precedenti paragrafi.
 
-.. figure:: media/image6.png
+.. figure:: media/image7.png
    :width: 100%
 
 \ **Figura 8 – Percorso di scelta del PSP e del servizio di pagamento**
@@ -195,7 +195,7 @@ Per una visione specialistica della funzionalità si può anche consultare il do
 Revoca della Ricevuta Telematica
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: media/image7.png
+.. figure:: media/image8.png
    :width: 100%
 
 \ **Figura 9 – Modello di processo di revoca di un pagamento**
@@ -243,7 +243,7 @@ revoca e nella risposta da parte del PSP contenente l’esito della revoca
 (ER), che il PSP può accettare di eseguire utilizzando i propri processi
 contabili e amministrativi interni, ovvero può anche rifiutare.
 
-.. figure:: media/image8.png
+.. figure:: media/image9.png
    :width: 100%
 
 \ **Figura 10 – Modello di processo di storno di un pagamento**
@@ -301,13 +301,13 @@ ottici, inserito manualmente dal soggetto versante su interfacce messe a
 disposizione da PSP (un terminale ATM, una pagina WEB, ecc.), ovvero, da
 ultimo, comunicato tramite avviso digitale.
 
-.. figure:: media/image9.png
+.. figure:: media/image10.png
    :width: 100%
 
 \ **Figura 11 – Modello di processo di pagamento attivato presso il
 PSP**
 
-.. figure:: media/image10.png
+.. figure:: media/image11.png
    :width: 100%
 
 \ **Figura 12 – *Sequence diagram* del processo di pagamento attivato
@@ -410,7 +410,7 @@ archivi, assegna alla richiesta il corretto numero avviso. Da questo
 momento in poi, il processo di pagamento avviene con le stesse modalità
 indicate al precedente § 2.2.
 
-.. figure:: media/image11.png
+.. figure:: media/image12.png
    :width: 100%
 
 \ **Figura 13 – *Sequence diagram* del processo di pagamento spontaneo presso il PSP**
@@ -509,7 +509,7 @@ f) Importo dell’operazione.
 Identificazione dell’utilizzatore finale
 -----------------------------------------
 
-.. figure:: media/image12.png
+.. figure:: media/image13.png
    :width: 100%
 
 \ **Figura 14 – Circuito di “Trust” nei pagamenti attivati presso l’Ente
@@ -561,7 +561,7 @@ riconciliazione.
 Riconciliazione in modalità singola
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: media/image13.png
+.. figure:: media/image14.png
    :width: 100%
 
 **Figura 15 - Riconciliazione in modalità singola**
@@ -596,7 +596,7 @@ Creditore sulla base dei dati forniti dal proprio istituto tesoriere e
 di quelli contenuti nel flusso di rendicontazione che il PSP deve
 inviare all’Ente Creditore stesso.
 
-.. figure:: media/image14.png
+.. figure:: media/image15.png
    :width: 100%
 
 \ **Figura 16 - Riconciliazione in modalità multipla**
@@ -706,7 +706,7 @@ Con riferimento allo schema di Figura 17 a pagina 47, il processo di acquisto co
 
 7. il PSP, sulla base delle informazioni ricevute per mezzo della RPT, genera la marca da bollo digitale e la restituisce alla PA, per conto dell’utilizzatore finale, come allegato della Ricevuta Telematica.
 
-.. figure:: media/image15.png
+.. figure:: media/image16.png
    :width: 100%
 
 \ **Figura 17 - *Sequence diagram* del processo di acquisto della marca da bollo digitale**
@@ -728,7 +728,7 @@ Si puntualizza che l’utilizzatore finale, ossia il soggetto che riceve l’avv
 
 Tutto ciò premesso, nel disegnare il modello di funzionamento del processo di avvisatura digitale integrato con il pagamento elettronico dobbiamo tenere presente che tale processo può essere rappresentato secondo lo schema di Figura 18.
 
-.. figure:: media/image16.png
+.. figure:: media/image17.png
    :width: 100%
 
 Figura 18 - Schema del processo di avvisatura e pagamento
@@ -835,7 +835,7 @@ a. invio massivo di un file contenente un insieme di avvisi digitali attraverso 
 
 b. invio del singolo avviso digitale via *web service* SOAP.
 
-.. figure:: media/image17.png
+.. figure:: media/image18.png
    :width: 100%
 
 Figura 19 - Invio degli avvisi - sotto fasi del processo di avvisatura
@@ -929,7 +929,7 @@ banking*, *mobile app*, ecc.). Il processo prevede i seguenti passi:
 
 4) il Nodo dei Pagamenti-SPC inoltra detta lista al PSP che ne aveva fatto richiesta, il quale mette a disposizione del proprio cliente gli avvisi digitali ricevuti.
 
-.. figure:: media/image18.png
+.. figure:: media/image19.png
    :width: 100%
 
 Figura 20 - Processo di gestione della posizione debitoria avvisatura
