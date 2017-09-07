@@ -16,8 +16,7 @@ I benefici nell’utilizzo del Nodo dei Pagamenti-SPC si estendono anche ai pres
 Caratteristiche generali del Nodo dei Pagamenti-SPC
 ---------------------------------------------------
 
-Il Nodo dei Pagamenti-SPC è strutturato per rispondere alle necessità
-di:
+Il Nodo dei Pagamenti-SPC è strutturato per rispondere alle necessità di:
 
 -  consentire l’esecuzione delle operazioni di pagamento previste dalle Linee guida di cui al comma 4 dell’articolo 5 del CAD;
 
@@ -55,11 +54,7 @@ La piattaforma del Nodo dei Pagamenti-SPC si basa sulle componenti appresso indi
 Gestore del Workflow Applicativo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-È la macro-componente principale mediante la quale istanzia i modelli di
-pagamento di cui al capitolo 2. Ha lo scopo di coordinare l’esecuzione
-delle richieste di servizio, richiamando componenti di utilità (quali ad
-esempio, il modulo per la diagnostica, il modulo per la verifica della
-firma digitale, ecc.) ed interfacciare l’infrastruttura di Rete SPC
+È la macro-componente principale mediante la quale istanzia i modelli di pagamento di cui al capitolo 2. Ha lo scopo di coordinare l’esecuzione delle richieste di servizio, richiamando componenti di utilità (quali ad esempio, il modulo per la diagnostica, il modulo per la verifica della firma digitale, ecc.) ed interfacciare l’infrastruttura di Rete SPC
 tramite una specifica Porta di Dominio.
 
 Il Gestore del *Workflow* Applicativo interfaccia sia le applicazioni
@@ -67,8 +62,7 @@ degli Enti Creditori da cui provengono le richieste di servizio e a cui
 devono essere indirizzate le relative risposte applicative, sia i PSP
 che abilitano il pagamento sui diversi canali.
 
-Comprende degli agenti software tra cui i principali sono quelli che
-permettono:
+Comprende degli agenti software tra cui i principali sono quelli che permettono:
 
 -  la gestione del “Giornale degli Eventi” dove sono registrati - per ogni operazione - tutti gli scambi necessari alla corretta esecuzione del processo;
 
@@ -85,16 +79,9 @@ permettono:
 Gestore della Porta di Dominio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Questa componente, mantenuta per retrocompatibilità, si occupa dello
-scambio dei messaggi da e verso SPC per il colloquio con l’Ente
-Creditore secondo gli accordi di servizio stabiliti dalle regole
-tecniche SPCoop e pubblicati sui registri SICA. In coerenza con le
-logiche SPCoop, permette di reindirizzare i messaggi alle Pubbliche
-Amministrazioni aderenti a SPC anche in via indiretta attraverso le reti
-territoriali, eventualmente per mezzo di soggetti intermediari.
+Questa componente, mantenuta per retrocompatibilità, si occupa dello scambio dei messaggi da e verso SPC per il colloquio con l’Ente Creditore secondo gli accordi di servizio stabiliti dalle regole tecniche SPCoop e pubblicati sui registri SICA. In coerenza con le logiche SPCoop, permette di reindirizzare i messaggi alle Pubbliche Amministrazioni aderenti a SPC anche in via indiretta attraverso le reti territoriali, eventualmente per mezzo di soggetti intermediari.
 
-Tra le principali attività svolte dalla componente si richiamano, a
-titolo esemplificativo:
+Tra le principali attività svolte dalla componente si richiamano, a titolo esemplificativo:
 
 -  incapsulamento delle chiamate dei metodi *Web service*, rendendole disponibili in forma mediata verso la Porta di Dominio;
 
@@ -115,18 +102,9 @@ titolo esemplificativo:
 Interfaccia di Canale
 ~~~~~~~~~~~~~~~~~~~~~
 
-Le attività svolte da questa componente sono analoghe a quelle svolte
-dal gestore della Porta di Dominio per gli Enti Creditori, ma istanziate
-per il rapporto con i singoli PSP. A tale scopo, espone una modalità
-standard verso i PSP, descritta nel capitolo 9 della Sezione III. Nel
-caso di peculiari modalità tecnico trasmissive richieste dai PSP, sempre
-che di validità generale, possono essere realizzate allo scopo
-specifiche interfacce software.
+Le attività svolte da questa componente sono analoghe a quelle svolte dal gestore della Porta di Dominio per gli Enti Creditori, ma istanziate per il rapporto con i singoli PSP. A tale scopo, espone una modalità standard verso i PSP, descritta nel capitolo 9 della Sezione III. Nel caso di peculiari modalità tecnico trasmissive richieste dai PSP, sempre che di validità generale, possono essere realizzate allo scopo specifiche interfacce software.
 
-Qualora il PSP lo richieda, la componente permette di interfacciare il
-PSP attraverso un intermediario (soggetto giuridico o circuito) scelto
-dallo stesso PSP. Tutti gli oneri derivanti sono a carico del PSP che
-mantiene la titolarità del rapporto con il Nodo dei Pagamenti-SPC.
+Qualora il PSP lo richieda, la componente permette di interfacciare il PSP attraverso un intermediario (soggetto giuridico o circuito) scelto dallo stesso PSP. Tutti gli oneri derivanti sono a carico del PSP che mantiene la titolarità del rapporto con il Nodo dei Pagamenti-SPC.
 
 Di seguito le principali attività svolte dalla componente:
 
@@ -165,42 +143,21 @@ In questo caso:
 Componente WISP
 ~~~~~~~~~~~~~~~~
 
-La componente “WISP” (*Wizard* Interattivo di Scelta del PSP) consente
-all'utilizzatore finale di effettuare la scelta del PSP in modalità
-accentrata presso il NodoSPC, che mette a disposizione apposite pagine
-che standardizzano a livello nazionale la *user experience* dei
-pagamenti verso la Pubblica Amministrazione, garantendo ai PSP aderenti
-che l'esposizione dei servizi da loro offerti sia proposta
-all'utilizzatore finale attraverso schemi che consentano pari
-opportunità di trattamento, concorrenza e non discriminazione.
+La componente “WISP” (*Wizard* Interattivo di Scelta del PSP) consente all'utilizzatore finale di effettuare la scelta del PSP in modalità accentrata presso il NodoSPC, che mette a disposizione apposite pagine che standardizzano a livello nazionale la *user experience* dei pagamenti verso la Pubblica Amministrazione, garantendo ai PSP aderenti che l'esposizione dei servizi da loro offerti sia proposta all'utilizzatore finale attraverso schemi che consentano pari opportunità di trattamento, concorrenza e non discriminazione.
 
-La componente WISP inoltre fornisce funzioni di supporto per il pagatore
-introducendo vari accorgimenti per semplificare la *user experience*,
-anche nel caso di pagamento con dispositivi mobili. Inoltre l’utente
-potrà memorizzare i servizi di pagamento utilizzati, evitando di dover
-effettuare una nuova ricerca nelle occasioni successive.
+La componente WISP inoltre fornisce funzioni di supporto per il pagatore introducendo vari accorgimenti per semplificare la *user experience*, anche nel caso di pagamento con dispositivi mobili. Inoltre l’utente potrà memorizzare i servizi di pagamento utilizzati, evitando di dover effettuare una nuova ricerca nelle occasioni successive.
 
 Componente Wrapper MyBank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Nell'ambito del collegamento tra il Nodo dei pagamenti-SPC ed il
-circuito *e-commerce* MyBank (vedi Capitolo Errore. L'origine
-riferimento non è stata trovata. in Appendice 2), la componente "Wrapper
-MyBank" si occupa di effettuare le necessarie conversioni di tracciati e
-gestire il colloquio tra il Nodo dei Pagamenti-SPC e la componente
-*Initiating Party* messa a disposizione dalla *Seller Bank*, rendendo
-possibile l’inoltro della richiesta di pagamento alla *Buyer Bank* ed il
-ritorno dell'esito del pagamento stesso.
+Nell'ambito del collegamento tra il Nodo dei pagamenti-SPC ed il circuito *e-commerce* MyBank (vedi Capitolo Errore. L'origine riferimento non è stata trovata. in Appendice 2), la componente "Wrapper MyBank" si occupa di effettuare le necessarie conversioni di tracciati e gestire il colloquio tra il Nodo dei Pagamenti-SPC e la componente *Initiating Party* messa a disposizione dalla *Seller Bank*, rendendo possibile l’inoltro della richiesta di pagamento alla *Buyer Bank* ed il ritorno dell'esito del pagamento stesso.
 
-In tale contesto, le *Seller Bank* aderenti al Nodo dei Pagamenti-SPC
-*sono tenute ad utilizzare le specifiche di interfacciamento della
-componente “Wrapper MyBank”*.
+In tale contesto, le *Seller Bank* aderenti al Nodo dei Pagamenti-SPC *sono tenute ad utilizzare le specifiche di interfacciamento della componente “Wrapper MyBank”*.
 
 Gestione dell'avvisatura digitale in modalità *push*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-La gestione dell'avvisatura digitale in modalità *push* avviene
-attraverso l'utilizzo di componenti del NodoSPC che consentono:
+La gestione dell'avvisatura digitale in modalità *push* avviene attraverso l'utilizzo di componenti del NodoSPC che consentono:
 
 -  agli Enti Creditori l'invio degli avvisi sia in modalità SFTP (File transfer sicuro), sia attraverso l'utilizzo di appositi *web service* (vedi rispettivamente §§ 8.7 e 8.2.6);
 
@@ -265,39 +222,19 @@ Ognuna delle componenti di utilità, oltre ad attività specifiche alla propria 
 Sistema di Monitoring
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Il sistema di Monitoring svolge attività di controllo complessivo per
-quanto attiene alle tematiche di monitoraggio. tale componente deve
-essere considerata come una entità logica indipendente, con un proprio
-workflow specifico e proprie regole di funzionamento, in grado - quindi
-- di verificare malfunzionamenti e condizioni di errore di qualsiasi
+Il sistema di Monitoring svolge attività di controllo complessivo per quanto attiene alle tematiche di monitoraggio. tale componente deve essere considerata come una entità logica indipendente, con un proprio workflow specifico e proprie regole di funzionamento, in grado - quindi - di verificare malfunzionamenti e condizioni di errore di qualsiasi
 altro modulo.
 
-Nel sistema di monitoring è allocata la funzione di throttling che
-limita l’utilizzo del sistema pagoPA oltre le possibilità di carico da
-cui possa conseguire il verificarsi di disservizi generali. Tale
-funzionalità viene innescata automaticamente nel caso in cui un Ente
-Creditore tenti di avviare, nell’unità di tempo, un numero di operazioni
-di pagamento superiori ai fabbisogni da esso stesso dichiarati. Le
-regole di *throttling* sono indicate nel documento “\ *Indicatori di
-qualità per i Soggetti Aderenti*\ ” pubblicato sul sito istituzionale
-dell’Agenzia per l’Italia Digitale.
+Nel sistema di monitoring è allocata la funzione di throttling che limita l’utilizzo del sistema pagoPA oltre le possibilità di carico da cui possa conseguire il verificarsi di disservizi generali. Tale funzionalità viene innescata automaticamente nel caso in cui un Ente Creditore tenti di avviare, nell’unità di tempo, un numero di operazioni di pagamento superiori ai fabbisogni da esso stesso dichiarati. Le regole di *throttling* sono indicate nel documento “\ *Indicatori di qualità per i Soggetti Aderenti*\ ” pubblicato sul sito istituzionale dell’Agenzia per l’Italia Digitale.
 
 Sistema di Gestione del Tavolo Operativo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Il sistema ha lo scopo di fornire il supporto necessario alle attività
-del Tavolo Operativo, monitorando le altre componenti applicative e
-avendo accesso alle informazioni relative ad ogni richiesta di
-intervento.
+Il sistema ha lo scopo di fornire il supporto necessario alle attività del Tavolo Operativo, monitorando le altre componenti applicative e avendo accesso alle informazioni relative ad ogni richiesta di intervento.
 
-Fra le funzioni di supporto al Tavolo operativo è messo a disposizione
-un sistema di *Interactive Voice Response* (IVR, Risposta Vocale
-Interattiva) per istradare le chiamate vocali, integrato a un sistema di
-*trouble-ticketing* per tracciare tutte le attività di assistenza.
+Fra le funzioni di supporto al Tavolo operativo è messo a disposizione un sistema di *Interactive Voice Response* (IVR, Risposta Vocale Interattiva) per istradare le chiamate vocali, integrato a un sistema di *trouble-ticketing* per tracciare tutte le attività di assistenza.
 
 Sistema di Reporting
 ~~~~~~~~~~~~~~~~~~~~
 
-Il sistema assicura la produzione e pubblicazione di informazioni a
-carattere statistico, attraverso un sito all’uopo dedicato e con la
-gestione dei livelli di accesso secondo profili definiti.
+Il sistema assicura la produzione e pubblicazione di informazioni a carattere statistico, attraverso un sito all’uopo dedicato e con la gestione dei livelli di accesso secondo profili definiti.
