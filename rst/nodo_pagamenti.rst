@@ -3,26 +3,15 @@ Il Nodo dei Pagamenti-SPC
 
 Il Nodo dei Pagamenti-SPC è un’infrastruttura abilitante a disposizione di tutti gli Enti Creditori per fornire servizi e rendere disponibili funzioni di cooperazione applicativa tra i differenti soggetti - Enti Creditori e prestatori di servizi di pagamento - rappresentabili come Mittenti o Destinatari di uno scambio di “messaggi” (documenti informatici) tra i vari attori in una logica di modello “molti-a-molti”.
 
-La Pubblica Amministrazione, in questi termini, si configura come un
-unico soggetto nei confronti del sistema dei pagamenti (gruppo unico di
-acquisto) con benefici non solo nel miglioramento del servizio
-all’utilizzatore finale e nella efficienza delle procedure di back
-office interne alle amministrazioni ma anche nelle migliori condizioni
+La Pubblica Amministrazione, in questi termini, si configura come un unico soggetto nei confronti del sistema dei pagamenti (gruppo unico di acquisto) con benefici non solo nel miglioramento del servizio all’utilizzatore finale e nella efficienza delle procedure di back office interne alle amministrazioni ma anche nelle migliori condizioni
 applicabili.
 
-La piattaforma può essere utilizzata, su base volontaria, anche dai
-gestori di pubblici servizi.
+La piattaforma può essere utilizzata, su base volontaria, anche dai gestori di pubblici servizi.
 
-Gli Enti Creditori - PA e gestori di pubblici servizi - possono inoltre
-utilizzare soggetti pubblici o privati, definiti “intermediari”, per
-gestire i servizi di front-office e di interconnessione al Nodo dei
-Pagamenti-SPC, compresi quindi quelli di pagamento informatico, offerti
-agli utenti dell’ente.
+Gli Enti Creditori - PA e gestori di pubblici servizi - possono inoltre utilizzare soggetti pubblici o privati, definiti “intermediari”, per gestire i servizi di front-office e di interconnessione al Nodo dei
+Pagamenti-SPC, compresi quindi quelli di pagamento informatico, offerti agli utenti dell’ente.
 
-I benefici nell’utilizzo del Nodo dei Pagamenti-SPC si estendono anche
-ai prestatori di servizi di pagamento che possono in tal modo
-implementare in modo uniforme il colloquio telematico relativo ai
-servizi di pagamento.
+I benefici nell’utilizzo del Nodo dei Pagamenti-SPC si estendono anche ai prestatori di servizi di pagamento che possono in tal modo implementare in modo uniforme il colloquio telematico relativo ai servizi di pagamento.
 
 Caratteristiche generali del Nodo dei Pagamenti-SPC
 ---------------------------------------------------
@@ -61,8 +50,7 @@ Il Nodo dei Pagamenti-SPC definisce modalità standard per la gestione dei fluss
 Architettura e contenuti del Nodo dei Pagamenti-SPC
 ---------------------------------------------------
 
-La piattaforma del Nodo dei Pagamenti-SPC si basa sulle componenti
-appresso indicate.
+La piattaforma del Nodo dei Pagamenti-SPC si basa sulle componenti appresso indicate.
 
 Gestore del Workflow Applicativo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -166,9 +154,7 @@ Il *Repository* consente una verifica in merito al corretto trattamento dei flus
 Componente Web-FESP
 ~~~~~~~~~~~~~~~~~~~
 
-La componente “Web-FESP” permette di effettuare il pagamento
-reindirizzando l’utente verso una *landing page* messa a disposizione
-dal PSP.
+La componente “Web-FESP” permette di effettuare il pagamento reindirizzando l’utente verso una *landing page* messa a disposizione dal PSP.
 
 In questo caso:
 
