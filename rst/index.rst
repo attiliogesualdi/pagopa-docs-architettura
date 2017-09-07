@@ -1,4 +1,4 @@
-Documentazione PagoPA (BOZZA)
+Architettura PagoPA (BOZZA)
 #######################################
 
 .. toctree::
