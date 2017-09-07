@@ -6,12 +6,7 @@ Architettura PagoPA (BOZZA)
    :numbered:
    :hidden:
 
-   acronimi.rst
-   modelli_processo_pagamento.rst
-   nodo_pagamenti.rst
-   sistema_pagopa.rst
-
-PARTE ZERO - ACRONIMI
+ACRONIMI
 :::::::::::::::::::::::::::::::::
 
  .. toctree::
