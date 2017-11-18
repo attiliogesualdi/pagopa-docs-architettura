@@ -1,4 +1,3 @@
-
 Modelli del processo di pagamento
 =================================
 
@@ -460,7 +459,7 @@ Con riferimento allo schema di Figura 17 a pagina 47, il processo di acquisto co
 .. figure:: media/image16.png
    :width: 100%
 
-\ **Figura 17 - *Sequence diagram* del processo di acquisto della marca da bollo digitale**
+\ **Figura 17 - Sequence diagram del processo di acquisto della marca da bollo digitale**
 
 Riconciliazione delle Ricevute Telematiche
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -668,4 +667,4 @@ In particolare, i PSP possono mettere a disposizioni delle *app* per dispositivi
    vedi dati della RT al paragrafo 5.3.2 della Sezione II e dati del Flusso di rendicontazione specificati nella Sezione II dell’Allegato A alle Linee guida.
 
 .. [5]
-   vedi sotto fase 2a della Figura 19 a pagina 48
+   vedi sotto fase 2a della Figura 19 a pagina 48.
