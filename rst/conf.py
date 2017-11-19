@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # -- PROJECT Variables ----------------------------------------------------
-settings_project_name = u"PagoPA Architettura (BOZZA)"
+settings_project_name = u"PagoPA Architettura"
 settings_copyright_year = '2017'
 settings_copyright_name = ''
 settings_doc_version = 'version: latest'
