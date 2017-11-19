@@ -46,6 +46,7 @@ Il Nodo dei Pagamenti-SPC definisce modalità standard per la gestione dei fluss
 
 -  de-materializza gli avvisi di pagamento.
 
+
 Architettura e contenuti del Nodo dei Pagamenti-SPC
 ---------------------------------------------------
 
