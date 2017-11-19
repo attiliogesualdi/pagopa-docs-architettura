@@ -10,7 +10,6 @@ settings_doc_release = 'version: latest'
 settings_basename = 'cad'
 settings_file_name = 'index'
 
-
 import sys
 import os
 
